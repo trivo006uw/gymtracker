@@ -1,0 +1,38 @@
+{
+  "name": "GymTracker",
+  "short_name": "GymTracker",
+  "description": "Log workouts, follow your weekly routine, and track how much stronger you've become.",
+  "start_url": "/gymtracker/",
+  "scope": "/gymtracker/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#07060F",
+  "theme_color": "#07060F",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/gymtracker/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/gymtracker/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/gymtracker/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/gymtracker/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ]
+}

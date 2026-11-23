@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "GymTracker",
+    "slug": "GymTracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#07060F",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#07060F",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png",
+      "name": "GymTracker",
+      "shortName": "GymTracker",
+      "description": "Log workouts, follow your weekly routine, and track how much stronger you've become.",
+      "themeColor": "#07060F",
+      "backgroundColor": "#07060F",
+      "display": "standalone",
+      "lang": "en",
+      "scope": "/gymtracker/",
+      "startUrl": "/gymtracker/"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "experiments": {
+      "baseUrl": "/gymtracker"
+    }
+  }
+}
